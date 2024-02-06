@@ -1,0 +1,59 @@
+{
+	"source": "cat.png",
+	"entityId": "cat01",
+	"spriteWidth" : 32,
+	"spriteHeight" : 32,
+	"collision-box": {
+		"x": 8,
+		"y": 20,
+		"w": 16,
+		"h": 12
+	},
+	"initial-stats": {
+		"base-speed": 4
+	},
+	"sets": {
+		"move_down": {
+			"xOffset": 0,
+			"yOffset": 0,
+			"frames": 4
+		},
+		"move_right": {
+			"xOffset": 0,
+			"yOffset": 1,
+			"frames": 4
+		},
+		"move_up": {
+			"xOffset": 0,
+			"yOffset": 2,
+			"frames": 4
+		},
+		"move_left": {
+			"xOffset": 0,
+			"yOffset": 3,
+			"frames": 4
+		},
+		
+		"sleep": {
+			"xOffset": 0,
+			"yOffset": 7,
+			"frames": 2
+		},
+		
+		"layDown": {
+			"xOffset": 0,
+			"yOffset": 6,
+			"frames": 2
+		},
+		"lay": {
+			"xOffset": 2,
+			"yOffset": 6,
+			"frames": 2
+		},
+		"getUp": {
+			"xOffset": 2,
+			"yOffset": 7,
+			"frames": 2
+		}
+	}
+}

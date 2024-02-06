@@ -1,0 +1,29 @@
+{
+  "npc_id": "cat01",
+  "npc_name": "Katze",
+  "startRules": "miau01",
+  "npcDialogs": {
+    "miau01": {
+      "text": "Miau!!",
+      "pointer": "hallo, loremImpsum, gehen"
+    },
+    "longTalk": {
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "pointer": "hallo, loremImpsum, gehen"
+    }
+  },
+  "playerDialogs": {
+    "hallo": {
+      "text": "Hallo Katze!",
+      "pointer": "miau01"
+    },
+    "loremImpsum": {
+      "text": "Erzähle mir mal einen längeren text.",
+      "pointer": "longTalk"
+    },
+    "gehen": {
+      "text": "Tschüss Katze!",
+      "pointer": ""
+    }
+  }
+}

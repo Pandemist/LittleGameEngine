@@ -1,0 +1,15 @@
+{
+	"map-source": "outdoorMap.tmx",
+	"map-change": {
+		"transition_1": {
+			"transition-tile-x": 44,
+			"transition-tile-y": 5,
+			"transition-direction": "N",
+
+			"dest-name": "testMap",
+			"dest-orient": "S",
+			"dest-tile-x": 5.5,
+			"dest-tile-y": 1
+		}
+	}
+}

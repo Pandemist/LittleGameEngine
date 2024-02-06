@@ -1,0 +1,25 @@
+{
+  "map-source": "testMap.tmx",
+  "map-change": {
+    "transition_1": {
+      "transition-tile-x": 4,
+      "transition-tile-y": 1,
+      "transition-direction": "N",
+
+      "dest-name": "outdoor",
+      "dest-orient": "S",
+      "dest-tile-x": 45,
+      "dest-tile-y": 6
+    },
+    "transition_2": {
+      "transition-tile-x": 5,
+      "transition-tile-y": 1,
+      "transition-direction": "N",
+
+      "dest-name": "outdoor",
+      "dest-orient": "S",
+      "dest-tile-x": 45,
+      "dest-tile-y": 6
+    }
+  }
+}

@@ -1,0 +1,14 @@
+lang.game.name=Pixel Game
+
+lang.game.creator=Pandemist
+
+lang.ui.time=Uhr
+
+lang.pauseMenu.name=Pause
+lang.optionMenu.name=Optionen
+
+lang.menuBtn.back=Zurück
+lang.menuBtn.start=Start
+lang.menuBtn.resume=Weiter
+lang.menuBtn.options=Optionen
+lang.menuBtn.exitGame=Beenden

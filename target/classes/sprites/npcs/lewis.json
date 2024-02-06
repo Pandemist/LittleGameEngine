@@ -1,0 +1,49 @@
+{
+	"source": "lewis.png",
+	"entityId": "lewis01",
+	"spriteWidth" : 16,
+	"spriteHeight" : 32,
+	"collision-box": {
+		"x": 1,
+		"y": 22,
+		"w": 14,
+		"h": 10
+	},
+	"initial-stats": {
+		"base-speed": 2
+	},
+	"sets": {
+		"move_down": {
+			"xOffset": 0,
+			"yOffset": 0,
+			"frames": 4
+		},
+		"move_right": {
+			"xOffset": 0,
+			"yOffset": 1,
+			"frames": 4
+		},
+		"move_up": {
+			"xOffset": 0,
+			"yOffset": 2,
+			"frames": 4
+		},
+		"move_left": {
+			"xOffset": 0,
+			"yOffset": 3,
+			"frames": 4
+		},
+		
+		"garden_work": {
+			"xOffset": 0,
+			"yOffset": 4,
+			"frames": 2
+		},
+		
+		"drink": {
+			"xOffset": 1,
+			"yOffset": 5,
+			"frames": 3
+		}
+	}
+}
